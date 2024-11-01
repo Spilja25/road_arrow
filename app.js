@@ -40,7 +40,8 @@ let month = futureDate.getMonth();
 month = months[month];
 const weekday = weekdays[futureDate.getDay()];
 const date = futureDate.getDate();
-giveaway.textContent = `Ekipa sa Malte daje parastos na dan ${weekday}, ${date} ${month} ${year} ${hours}:${minutes}`;
+giveaway.textContent = `Ekipa sa Malte daje parastos na dan
+ ${weekday}, ${date} ${month} ${year} ${hours}:${minutes}`;
 
 const futureTime = futureDate.getTime();
 function getRemaindingTime() {
